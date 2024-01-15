@@ -25,6 +25,7 @@ nav ul,.logo{
     color: #131318;
     font-size: 36px;
     font-weight: 800;
+    cursor: pointer;
 }
 h2 span{
     color: #FF5400;
@@ -35,6 +36,17 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     margin-left: 44px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    color:#FF5400;
+}
+.hambargar{
+    display: none;
+    font-size: 50px;
 }
 header{
     width: 80%;
@@ -42,16 +54,50 @@ header{
     margin:0 auto;
 }
 .conteinar{
-    width: 100%;
     height: 600px;
     background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../img/Rectangle\ 1.png');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .banner-heading{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    margin:54px 0px;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 600px;
+    margin:0 auto;
+    margin-bottom: 45px;
+}
+.input-content{
+    display:flex;
+    max-width: 768px;
+    height: 52px;
+    margin:0 auto;
+    gap:24px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    padding-left: 10px;
+}
+.button input[type='button']{
+    padding:20px;
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
 }
