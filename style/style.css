@@ -317,4 +317,9 @@ input{
     align-items: center;
     justify-content: flex-start;
 }
+.packages-btn{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
 
