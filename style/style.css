@@ -47,7 +47,7 @@ nav ul li a:hover{
 }
 .hambargar{
     display: none;
-    font-size: 50px;
+    font-size: 40px;
 }
 .conteinar{
     width: 80%;
@@ -111,19 +111,14 @@ input{
     justify-content: space-between;
     margin:130px auto;
 }
-
-.popular-heading{
+/* commone heading and discription */
+.heading{
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.tours-name{
-    font-size:30px;
-    text-align: justify;
-    margin-bottom:24px;
-}
-.tours-discription{
+.discription{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -131,6 +126,12 @@ input{
     margin-bottom: 24px;
     max-width: 577px;
 }
+/* Common heading and discription End */
+.tours-name{
+    font-size:30px;
+    margin-bottom:24px;
+}
+
 .tours-point{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -160,4 +161,77 @@ input{
     text-align: center;
     font-size: 20px;
     font-weight: 800;
+}
+/* Third Page Style */
+.destination-text-content{
+    text-align: center;
+}
+.destination-text-content p{
+    margin: 10px auto;
+}
+.destination-grid-content{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 300px 286px 300px;
+    gap:24px;
+    margin: 50px auto;
+}
+.box{
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-1{
+    background: url('../img/img-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/ 7;
+}
+#img-2{
+    background: url('../img/img-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 7/ 13;
+}
+#img-3{
+    background: url('../img/img-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/5;
+}
+#img-4{
+    background: url('../img/img-4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 5/10;
+
+}
+#img-5{
+    background: url('../img/img-5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 10/13;
+}
+#img-6{
+    background: url('../img/img-6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/6;
+}
+#img-7{
+    background: url('../img/img-7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 6/13;
 }
