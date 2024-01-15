@@ -332,6 +332,9 @@ input{
     justify-content: space-between;
     margin: 130px auto;
 }
+.perfect-place ul{
+    padding:0 20px;
+}
 .perfect-place-text-content{
     width: 48%;
 }
@@ -413,12 +416,12 @@ footer{
     gap:24px;
 }
 .footer-hr{
-    margin: 50px;
+    margin: 50px auto;
 }
 .footer-content{
     text-align: center;
 }
 .footer-icon{
-    font-size: 50px;
+    font-size: 40px;
     cursor: pointer;
 }
