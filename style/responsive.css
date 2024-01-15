@@ -3,6 +3,10 @@
     .conteinar{
         width: 95%;
     }
+    .logo h2{
+        font-size: 20px;
+        margin-left: 10px;
+    }
     nav ul{
         display:none;
     }
@@ -27,6 +31,7 @@
     }
     .input-content{
         flex-direction: column;
+        height: fit-content;
     }
     .input-content{
 
@@ -72,11 +77,35 @@
     .why-choose-us-conteinar{
         flex-direction: column;
     }
-    .hotel, .map, .price{
+    .hotel, .map, .price, .perfect-place-text-content, .perfect-place-video{
         width: 100%;
     }
     /* Fifth Page */
     .packages-card{
         padding:10px;
+    }
+    .perfect-place{
+        flex-direction: column;
+        gap:2%;
+    }
+    /* seven Page */
+    .new-letter{
+        flex-direction: column;
+
+    }
+    .new-letter-text-content{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .new-letter-img-content{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .new-letter-img-content p{
+        font-size: 16px;
+    }
+    .new-letter-img-content h3{
+        font-size: 20px;
     }
 }
