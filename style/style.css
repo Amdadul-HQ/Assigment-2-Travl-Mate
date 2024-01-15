@@ -235,3 +235,50 @@ input{
     background-size: cover;
     grid-column: 6/13;
 }
+/* Fourth Page style */
+.choose-conteinar{
+    margin: 130px auto;
+}
+.why-choose-text-content p{
+    margin: 24px auto;
+    text-align: center;
+}
+.why-choose-text-content h1{
+    text-align: center;
+}
+
+.why-choose-us-conteinar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:24px;
+    margin: 50px auto;
+}
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.hotel, .map, .price{
+    width: calc( 50% - 24px);
+    padding:30px;
+}
+
+
+
+/* Fifth Page Style */
+/* .packages-1{
+    background: url('../img/package1-3.png');
+    background-size: cover;
+    height: 500px;
+} */

@@ -68,4 +68,11 @@
     #img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7{
         grid-column: 1/-1;
     }
+    /* Fourth Page */
+    .why-choose-us-conteinar{
+        flex-direction: column;
+    }
+    .hotel, .map, .price{
+        width: 100%;
+    }
 }
