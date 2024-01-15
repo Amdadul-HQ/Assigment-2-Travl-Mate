@@ -350,6 +350,7 @@ input{
     display: flex;
     justify-content: space-between;
     gap:2%;
+    margin: 130px auto;
 }
 .new-letter-form input{
     width: 90%;
@@ -366,6 +367,7 @@ input{
     border-radius: 16px;
     border: 1px solid #FF5400;
     text-align: center;
+    justify-content: center;
 }
 
 .new-letter-img-content{
@@ -391,4 +393,32 @@ input{
     border-radius: 16px;
     display: flex;
     flex-direction: column;justify-content: center;
+}
+/* Footer style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    text-align: center;
+}
+.footer-logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+}
+.footer-hr{
+    margin: 50px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-icon{
+    font-size: 50px;
+    cursor: pointer;
 }
