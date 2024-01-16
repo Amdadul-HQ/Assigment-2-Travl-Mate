@@ -444,6 +444,32 @@ input{
     display: flex;
     flex-direction: column;justify-content: center;
 }
+/* Extra Review Style */
+.review-conteinar{
+    margin: 130px auto;
+}
+.review-text-content{
+    margin: 50px 0;
+    text-align: center;
+}
+.review-costomer-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.col-3{
+    padding: 10px;
+    box-shadow: 0px 0px 10px #FF5400;
+    text-align: center;
+    border-radius: 16px;
+}
+.rating{
+    color:#FF5400;
+}
+.col-3 img{
+    border: 5px solid #FF5400;
+    border-radius: 50%;
+}
 /* Footer style */
 footer{
     background: rgba(19, 19, 24, 0.05);

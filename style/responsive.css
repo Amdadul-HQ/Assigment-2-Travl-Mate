@@ -88,6 +88,9 @@
         flex-direction: column;
         gap:2%;
     }
+    .shift{
+        font-size: 12px;
+    }
     /* seven Page */
     .new-letter{
         flex-direction: column;
@@ -120,5 +123,9 @@
     .gide-profile img{
         width:100%;
         height: 100%;
+    }
+    /* Extra Review Section */
+    .review-costomer-content{
+        grid-template-columns: repeat(1,1fr);
     }
 }
