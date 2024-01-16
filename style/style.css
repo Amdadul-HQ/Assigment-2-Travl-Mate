@@ -359,11 +359,16 @@ input{
 }
 /* Extra Giude Section */
 .guide-img-conteinar{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     width: 100%;
     gap: 16px;
     justify-content: space-between;
 
+}
+.guide-conteinar{
+    width:100%;
+    margin: 0 auto;
 }
 .Guide-text-content{
     text-align: center;

@@ -1,3 +1,33 @@
+@media screen and (max-width:992px) {
+    .conteinar{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .guide-img-conteinar{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+    .perfect-place-text-content, .perfect-place-video{
+        width: 100%;
+    }
+    .popular-conteinar{
+        flex-direction: column;
+    }
+    .popular-text-content,.popular-img-content{
+        width: 100%;
+        margin: 50px auto;
+    }
+    .perfect-place{
+        flex-direction: column;
+    }
+    .guide-conteinar{
+        margin: 100px auto;
+    }
+}
+
+
+
 @media screen and (max-width:600px) {
     /* First Page Start */
     .conteinar{
