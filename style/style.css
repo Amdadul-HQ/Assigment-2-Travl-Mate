@@ -107,6 +107,10 @@ input{
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.button input[type='button']:hover{
+    background-color: #aa410c;
 }
 
 /* Sceond Page Stayle  */
@@ -168,6 +172,10 @@ input{
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.main-btn:hover{
+    background: #aa410c;
 }
 /* Third Page Style */
 .destination-text-content{
