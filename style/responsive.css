@@ -1,4 +1,4 @@
-@media screen and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:992px) {
     .conteinar{
         width: 95%;
         margin: 0 auto;
@@ -143,7 +143,7 @@
     }
     /* extra section */
     .guide-img-conteinar{
-        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
     }
     .guide-profile-card{
         width: 100%;

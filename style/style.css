@@ -118,9 +118,10 @@ input{
     display:flex;
     justify-content: space-between;
     margin:130px auto;
+    width: 100%;
 }
 .popular-text-content{
-    width: 50%;
+    width: 40%;
 }
 /* commone heading and discription */
 .heading{
